@@ -20,7 +20,7 @@ document.querySelector(".btn-roll").addEventListener("click", function () {
         var diceDom = document.querySelector(".dice");
 
         diceDom.style.display = "block";
-        diceDom.src = "dice-" + rand + ".png";
+        diceDom.src = "images/dice-" + rand + ".png";
 
         if (rand == 1) {
             nextPlayer();
